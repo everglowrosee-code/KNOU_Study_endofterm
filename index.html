@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="theme-color" content="#10243b"><meta name="description" content="과목별 기출문제를 풀고, 반복 출제 개념과 강의 보충 내용을 복습하는 캡틴의 시험노트.">
+  <title>캡틴의 시험노트</title><link rel="icon" href="favicon.svg" type="image/svg+xml"><link rel="stylesheet" href="styles.css?v=practice1"><link rel="stylesheet" href="quiz.css?v=practice1">
+</head>
+<body>
+  <a class="skip" href="#main">본문으로 이동</a>
+  <aside class="sidebar">
+    <a class="brand" href="#library"><span class="mark">C<span>＋</span></span><span>캡틴의<br><strong>시험노트</strong></span></a>
+    <div class="sidebar-label">나의 학습 공간</div>
+    <nav aria-label="주 메뉴">
+      <a href="#library" data-nav="library"><span aria-hidden="true">▤</span> 과목별 기출</a>
+      <a href="#practice" data-nav="practice"><span aria-hidden="true">✎</span> 예상문제</a>
+      <a href="#repeat" data-nav="repeat"><span aria-hidden="true">↻</span> 반복 출제</a>
+      <a href="#lectures" data-nav="lectures"><span aria-hidden="true">▥</span> 강의 보충</a>
+      <a href="#mistakes" data-nav="mistakes"><span aria-hidden="true">✓</span> 오답 노트 <b id="mistake-count">0</b></a>
+    </nav>
+    <div class="sidebar-note"><span class="tiny-label">STUDY NOTE / 01</span><p>한 문제씩,<br>확실하게 내 것으로.</p><span>답안은 이 브라우저에 저장됩니다.</span></div>
+  </aside>
+  <div class="workspace">
+    <header class="topbar"><span id="breadcrumb">나의 과목 / 프로그래밍 언어론</span><span class="private-badge">개인 학습 공간</span></header>
+    <main id="main" tabindex="-1"><div class="loading" role="status">기출문제를 불러오는 중입니다…</div></main>
+    <footer>캡틴의 시험노트 <span>기출 원문 · 제공 정답표 · 1–15강 강의자료</span></footer>
+  </div>
+  <dialog id="confirm-dialog"><h2>답안을 초기화할까요?</h2><p>이 시험의 답안과 채점 결과가 지워집니다.</p><div class="dialog-actions"><button type="button" class="secondary" id="cancel-reset">취소</button><button type="button" class="primary" id="confirm-reset">초기화</button></div></dialog>
+  <div id="toast" class="toast" role="status" aria-live="polite"></div>
+  <script defer src="data.js?v=practice1"></script><script defer src="predictions.js?v=practice1"></script><script defer src="quiz.js?v=practice1"></script><script defer src="app.js?v=practice1"></script>
+</body></html>
