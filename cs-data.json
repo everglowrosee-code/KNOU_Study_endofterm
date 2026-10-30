@@ -3,10 +3,15 @@
     "id": "computer-science-intro",
     "title": "컴퓨터과학개론",
     "school": "방송통신대학교 · 컴퓨터과학과",
-    "scope": "제공된 2017–2019년 기말·대체시험 6회분",
-    "updated": "2026.10.29",
+    "scope": "1–15강 강의 · 제공 기출 6회분",
+    "updated": "2026.10.30",
     "eyebrow": "INTRODUCTION TO COMPUTER SCIENCE",
-    "sourceNote": "기말 36–70번 · 대체 16–30번. 2019년 기말 69번 E는 ②·④ 정답입니다. 2017년 기말은 정답표 재확인 중으로 채점을 보류합니다."
+    "sourceNote": "기말 36–70번 · 대체 16–30번. 2017년 기말 수정 정답표 반영. 2019년 기말 69번 E는 ②·④ 정답입니다.",
+    "teasers": [
+      "점근적 상·하한",
+      "메모리 공백 관리",
+      "키·무결성 제약"
+    ]
   },
   "exams": [
     {
@@ -1544,355 +1549,426 @@
         {
           "number": 36,
           "answerPosition": 1,
-          "answerCode": null,
-          "answer": null,
-          "acceptedAnswers": [],
-          "explanation": "정답표 재확인 중입니다. 첨부된 컴퓨터구조 정답표는 이 시험의 채점에 사용하지 않습니다.",
+          "answerCode": "1",
+          "answer": 1,
+          "acceptedAnswers": [
+            1
+          ],
+          "explanation": "프로그램은 수행 가능한 작업과 연산을 명령어의 조합으로 지정해 컴퓨터를 범용 기계로 사용하도록 합니다.",
           "groups": [],
           "needsReview": false
         },
         {
           "number": 37,
           "answerPosition": 2,
-          "answerCode": null,
-          "answer": null,
-          "acceptedAnswers": [],
-          "explanation": "정답표 재확인 중입니다. 첨부된 컴퓨터구조 정답표는 이 시험의 채점에 사용하지 않습니다.",
+          "answerCode": "4",
+          "answer": 4,
+          "acceptedAnswers": [
+            4
+          ],
+          "explanation": "현실 세계에서 관찰·측정해 얻은 원래 값이나 사실은 자료(data)입니다. 처리된 의미 있는 결과인 정보와 구별합니다.",
           "groups": [],
           "needsReview": false
         },
         {
           "number": 38,
           "answerPosition": 3,
-          "answerCode": null,
-          "answer": null,
-          "acceptedAnswers": [],
-          "explanation": "정답표 재확인 중입니다. 첨부된 컴퓨터구조 정답표는 이 시험의 채점에 사용하지 않습니다.",
+          "answerCode": "2",
+          "answer": 2,
+          "acceptedAnswers": [
+            2
+          ],
+          "explanation": "10010010₂의 부호 없는 값은 146입니다. 8비트 2의 보수 값은 146-256=-110입니다.",
           "groups": [],
           "needsReview": false
         },
         {
           "number": 39,
           "answerPosition": 4,
-          "answerCode": null,
-          "answer": null,
-          "acceptedAnswers": [],
-          "explanation": "정답표 재확인 중입니다. 첨부된 컴퓨터구조 정답표는 이 시험의 채점에 사용하지 않습니다.",
+          "answerCode": "2",
+          "answer": 2,
+          "acceptedAnswers": [
+            2
+          ],
+          "explanation": "1001010.111₂는 1.001010111₂×2^6입니다. 초과-127 지수는 6+127=133, 8비트 10000101입니다.",
           "groups": [],
           "needsReview": false
         },
         {
           "number": 40,
           "answerPosition": 5,
-          "answerCode": null,
-          "answer": null,
-          "acceptedAnswers": [],
-          "explanation": "정답표 재확인 중입니다. 첨부된 컴퓨터구조 정답표는 이 시험의 채점에 사용하지 않습니다.",
+          "answerCode": "3",
+          "answer": 3,
+          "acceptedAnswers": [
+            3
+          ],
+          "explanation": "제시된 문자 체계 중 표현 가능한 문자의 범위가 가장 넓은 것은 유니코드입니다. 유니코드 문자 집합과 UTF 인코딩의 단위 길이는 구별해야 합니다.",
           "groups": [],
           "needsReview": false
         },
         {
           "number": 41,
           "answerPosition": 6,
-          "answerCode": null,
-          "answer": null,
-          "acceptedAnswers": [],
-          "explanation": "정답표 재확인 중입니다. 첨부된 컴퓨터구조 정답표는 이 시험의 채점에 사용하지 않습니다.",
+          "answerCode": "1",
+          "answer": 1,
+          "acceptedAnswers": [
+            1
+          ],
+          "explanation": "욕심쟁이 방법은 매 단계 국부적인 최선의 선택을 합니다. 보기 중 거스름돈 문제가 대표 예이며 동전 체계에 따라 최적성이 달라질 수 있습니다.",
           "groups": [],
           "needsReview": false
         },
         {
           "number": 42,
           "answerPosition": 7,
-          "answerCode": null,
-          "answer": null,
-          "acceptedAnswers": [],
-          "explanation": "정답표 재확인 중입니다. 첨부된 컴퓨터구조 정답표는 이 시험의 채점에 사용하지 않습니다.",
+          "answerCode": "1",
+          "answer": 1,
+          "acceptedAnswers": [
+            1
+          ],
+          "explanation": "물체를 쪼갤 수 있으므로 이익/무게 비율로 우선순위를 정합니다. 물체 1은 15/3=5로 가장 높습니다.",
           "groups": [],
           "needsReview": false
         },
         {
           "number": 43,
           "answerPosition": 8,
-          "answerCode": null,
-          "answer": null,
-          "acceptedAnswers": [],
-          "explanation": "정답표 재확인 중입니다. 첨부된 컴퓨터구조 정답표는 이 시험의 채점에 사용하지 않습니다.",
+          "answerCode": "2",
+          "answer": 2,
+          "acceptedAnswers": [
+            2
+          ],
+          "explanation": "입력이 커질 때 증가율이 가장 작은 것은 O(log n)입니다. O(n), O(n log n), O(n²)보다 느리게 증가합니다.",
           "groups": [],
           "needsReview": false
         },
         {
           "number": 44,
           "answerPosition": 9,
-          "answerCode": null,
-          "answer": null,
-          "acceptedAnswers": [],
-          "explanation": "정답표 재확인 중입니다. 첨부된 컴퓨터구조 정답표는 이 시험의 채점에 사용하지 않습니다.",
+          "answerCode": "2",
+          "answer": 2,
+          "acceptedAnswers": [
+            2
+          ],
+          "explanation": "퀵 정렬은 피벗으로 분할하는 분할정복 알고리즘입니다. 최악의 수행 시간은 O(n²)이므로 O(n)이라는 보기가 틀립니다.",
           "groups": [],
           "needsReview": false
         },
         {
           "number": 45,
           "answerPosition": 10,
-          "answerCode": null,
-          "answer": null,
-          "acceptedAnswers": [],
-          "explanation": "정답표 재확인 중입니다. 첨부된 컴퓨터구조 정답표는 이 시험의 채점에 사용하지 않습니다.",
+          "answerCode": "3",
+          "answer": 3,
+          "acceptedAnswers": [
+            3
+          ],
+          "explanation": "중위 순서에서 22 다음 값은 30입니다. 오른쪽 서브트리가 없으면 처음으로 자신이 왼쪽 후손이 되는 조상을 찾습니다.",
           "groups": [],
           "needsReview": false
         },
         {
           "number": 46,
           "answerPosition": 11,
-          "answerCode": null,
-          "answer": null,
-          "acceptedAnswers": [],
-          "explanation": "정답표 재확인 중입니다. 첨부된 컴퓨터구조 정답표는 이 시험의 채점에 사용하지 않습니다.",
+          "answerCode": "2",
+          "answer": 2,
+          "acceptedAnswers": [
+            2
+          ],
+          "explanation": "두 입력이 다를 때만 1이고 같으면 0인 진리표는 XOR입니다. 그림 ②의 입력 쪽 추가 곡선을 확인하세요.",
           "groups": [],
           "needsReview": false
         },
         {
           "number": 47,
           "answerPosition": 12,
-          "answerCode": null,
-          "answer": null,
-          "acceptedAnswers": [],
-          "explanation": "정답표 재확인 중입니다. 첨부된 컴퓨터구조 정답표는 이 시험의 채점에 사용하지 않습니다.",
+          "answerCode": "3",
+          "answer": 3,
+          "acceptedAnswers": [
+            3
+          ],
+          "explanation": "카운터는 클록에 따라 기억된 상태가 변하므로 플립플롭을 사용합니다. 디코더·멀티플렉서 같은 조합회로와 구별합니다.",
           "groups": [],
           "needsReview": false
         },
         {
           "number": 48,
           "answerPosition": 13,
-          "answerCode": null,
-          "answer": null,
-          "acceptedAnswers": [],
-          "explanation": "정답표 재확인 중입니다. 첨부된 컴퓨터구조 정답표는 이 시험의 채점에 사용하지 않습니다.",
+          "answerCode": "1",
+          "answer": 1,
+          "acceptedAnswers": [
+            1
+          ],
+          "explanation": "명령어 주소 필드가 실제 피연산자가 있는 메모리 위치를 바로 가리키므로 직접 주소지정입니다.",
           "groups": [],
           "needsReview": false
         },
         {
           "number": 49,
           "answerPosition": 14,
-          "answerCode": null,
-          "answer": null,
-          "acceptedAnswers": [],
-          "explanation": "정답표 재확인 중입니다. 첨부된 컴퓨터구조 정답표는 이 시험의 채점에 사용하지 않습니다.",
+          "answerCode": "4",
+          "answer": 4,
+          "acceptedAnswers": [
+            4
+          ],
+          "explanation": "명령어 사이클은 인출→해독→실행→저장 순서입니다.",
           "groups": [],
           "needsReview": false
         },
         {
           "number": 50,
           "answerPosition": 15,
-          "answerCode": null,
-          "answer": null,
-          "acceptedAnswers": [],
-          "explanation": "정답표 재확인 중입니다. 첨부된 컴퓨터구조 정답표는 이 시험의 채점에 사용하지 않습니다.",
+          "answerCode": "2",
+          "answer": 2,
+          "acceptedAnswers": [
+            2
+          ],
+          "explanation": "데이터베이스는 공용·통합·저장·운영 데이터 집합입니다. 통합은 중복을 제거하거나 통제한다는 뜻이므로 중복이라는 연결이 틀립니다.",
           "groups": [],
           "needsReview": false
         },
         {
           "number": 51,
           "answerPosition": 16,
-          "answerCode": null,
-          "answer": null,
-          "acceptedAnswers": [],
-          "explanation": "정답표 재확인 중입니다. 첨부된 컴퓨터구조 정답표는 이 시험의 채점에 사용하지 않습니다.",
+          "answerCode": "4",
+          "answer": 4,
+          "acceptedAnswers": [
+            4
+          ],
+          "explanation": "개념 스키마는 전체 데이터베이스의 논리 구조를 기술하며 하나만 존재합니다. 외부 스키마는 사용자별, 내부 스키마는 저장 관점입니다.",
           "groups": [],
           "needsReview": false
         },
         {
           "number": 52,
           "answerPosition": 17,
-          "answerCode": null,
-          "answer": null,
-          "acceptedAnswers": [],
-          "explanation": "정답표 재확인 중입니다. 첨부된 컴퓨터구조 정답표는 이 시험의 채점에 사용하지 않습니다.",
+          "answerCode": "3",
+          "answer": 3,
+          "acceptedAnswers": [
+            3
+          ],
+          "explanation": "관계형 모델에서 하나의 행 또는 레코드는 튜플입니다. 릴레이션은 테이블 전체, 카디널리티는 행 수입니다.",
           "groups": [],
           "needsReview": false
         },
         {
           "number": 53,
           "answerPosition": 18,
-          "answerCode": null,
-          "answer": null,
-          "acceptedAnswers": [],
-          "explanation": "정답표 재확인 중입니다. 첨부된 컴퓨터구조 정답표는 이 시험의 채점에 사용하지 않습니다.",
+          "answerCode": "1",
+          "answer": 1,
+          "acceptedAnswers": [
+            1
+          ],
+          "explanation": "CREATE는 구조를 정의하는 데이터 정의어입니다. UPDATE·SELECT·DELETE는 이 강의의 분류에서 데이터를 조작하는 명령입니다.",
           "groups": [],
           "needsReview": false
         },
         {
           "number": 54,
           "answerPosition": 19,
-          "answerCode": null,
-          "answer": null,
-          "acceptedAnswers": [],
-          "explanation": "정답표 재확인 중입니다. 첨부된 컴퓨터구조 정답표는 이 시험의 채점에 사용하지 않습니다.",
+          "answerCode": "1",
+          "answer": 1,
+          "acceptedAnswers": [
+            1
+          ],
+          "explanation": "배열의 원소는 같은 자료형을 사용하며 인덱스로 접근합니다. 서로 다른 구조를 가진다는 설명이 틀립니다.",
           "groups": [],
           "needsReview": false
         },
         {
           "number": 55,
           "answerPosition": 20,
-          "answerCode": null,
-          "answer": null,
-          "acceptedAnswers": [],
-          "explanation": "정답표 재확인 중입니다. 첨부된 컴퓨터구조 정답표는 이 시험의 채점에 사용하지 않습니다.",
+          "answerCode": "2",
+          "answer": 2,
+          "acceptedAnswers": [
+            2
+          ],
+          "explanation": "0인 원소가 상대적으로 많은 행렬은 희소행렬입니다. 비영 원소 중심 표현으로 공간을 줄일 수 있습니다.",
           "groups": [],
           "needsReview": false
         },
         {
           "number": 56,
           "answerPosition": 21,
-          "answerCode": null,
-          "answer": null,
-          "acceptedAnswers": [],
-          "explanation": "정답표 재확인 중입니다. 첨부된 컴퓨터구조 정답표는 이 시험의 채점에 사용하지 않습니다.",
+          "answerCode": "4",
+          "answer": 4,
+          "acceptedAnswers": [
+            4
+          ],
+          "explanation": "스택은 서브루틴 호출·인터럽트·재귀의 복귀 정보 관리에 사용합니다. 트리·큐·배열을 설명한 다른 보기와 구별합니다.",
           "groups": [],
           "needsReview": false
         },
         {
           "number": 57,
           "answerPosition": 22,
-          "answerCode": null,
-          "answer": null,
-          "acceptedAnswers": [],
-          "explanation": "정답표 재확인 중입니다. 첨부된 컴퓨터구조 정답표는 이 시험의 채점에 사용하지 않습니다.",
+          "answerCode": "4",
+          "answer": 4,
+          "acceptedAnswers": [
+            4
+          ],
+          "explanation": "한 방향으로만 가지가 뻗어 선형에 가까워진 이진 트리는 경사 이진 트리입니다.",
           "groups": [],
           "needsReview": false
         },
         {
           "number": 58,
           "answerPosition": 23,
-          "answerCode": null,
-          "answer": null,
-          "acceptedAnswers": [],
-          "explanation": "정답표 재확인 중입니다. 첨부된 컴퓨터구조 정답표는 이 시험의 채점에 사용하지 않습니다.",
+          "answerCode": "1",
+          "answer": 1,
+          "acceptedAnswers": [
+            1
+          ],
+          "explanation": "프로세서 관리자는 CPU를 프로세스에 배정하고 각 프로세스의 상태를 감시합니다. 메모리·장치·파일 관리자와 역할이 다릅니다.",
           "groups": [],
           "needsReview": false
         },
         {
           "number": 59,
           "answerPosition": 24,
-          "answerCode": null,
-          "answer": null,
-          "acceptedAnswers": [],
-          "explanation": "정답표 재확인 중입니다. 첨부된 컴퓨터구조 정답표는 이 시험의 채점에 사용하지 않습니다.",
+          "answerCode": "3",
+          "answer": 3,
+          "acceptedAnswers": [
+            3
+          ],
+          "explanation": "CPU 시간을 작은 시간 조각으로 나누어 여러 사용자에게 번갈아 주는 대화형 처리는 시분할 시스템입니다.",
           "groups": [],
           "needsReview": false
         },
         {
           "number": 60,
           "answerPosition": 25,
-          "answerCode": null,
-          "answer": null,
-          "acceptedAnswers": [],
-          "explanation": "정답표 재확인 중입니다. 첨부된 컴퓨터구조 정답표는 이 시험의 채점에 사용하지 않습니다.",
+          "answerCode": "1",
+          "answer": 1,
+          "acceptedAnswers": [
+            1
+          ],
+          "explanation": "Round Robin은 준비 큐 순서로 프로세스에 제한된 시간 할당량을 주며, 끝나지 않은 프로세스를 큐 뒤로 보냅니다.",
           "groups": [],
           "needsReview": false
         },
         {
           "number": 61,
           "answerPosition": 26,
-          "answerCode": null,
-          "answer": null,
-          "acceptedAnswers": [],
-          "explanation": "정답표 재확인 중입니다. 첨부된 컴퓨터구조 정답표는 이 시험의 채점에 사용하지 않습니다.",
+          "answerCode": "2",
+          "answer": 2,
+          "acceptedAnswers": [
+            2
+          ],
+          "explanation": "프로그램과 데이터를 동일한 크기의 블록으로 나누는 가상 메모리 기법은 페이징입니다.",
           "groups": [],
           "needsReview": false
         },
         {
           "number": 62,
           "answerPosition": 27,
-          "answerCode": null,
-          "answer": null,
-          "acceptedAnswers": [],
-          "explanation": "정답표 재확인 중입니다. 첨부된 컴퓨터구조 정답표는 이 시험의 채점에 사용하지 않습니다.",
+          "answerCode": "1",
+          "answer": 1,
+          "acceptedAnswers": [
+            1
+          ],
+          "explanation": "사실·규칙을 선언하고 질의로 추론하는 것은 논리형 프로그래밍입니다.",
           "groups": [],
           "needsReview": false
         },
         {
           "number": 63,
           "answerPosition": 28,
-          "answerCode": null,
-          "answer": null,
-          "acceptedAnswers": [],
-          "explanation": "정답표 재확인 중입니다. 첨부된 컴퓨터구조 정답표는 이 시험의 채점에 사용하지 않습니다.",
+          "answerCode": "1",
+          "answer": 1,
+          "acceptedAnswers": [
+            1
+          ],
+          "explanation": "어휘 분석으로 얻은 토큰열이 문법에 맞는지 검사하는 단계는 구문 분석입니다.",
           "groups": [],
           "needsReview": false
         },
         {
           "number": 64,
           "answerPosition": 29,
-          "answerCode": null,
-          "answer": null,
-          "acceptedAnswers": [],
-          "explanation": "정답표 재확인 중입니다. 첨부된 컴퓨터구조 정답표는 이 시험의 채점에 사용하지 않습니다.",
+          "answerCode": "4",
+          "answer": 4,
+          "acceptedAnswers": [
+            4
+          ],
+          "explanation": "형식매개변수를 통한 변경이 실제 호출자의 대상에 반영되는 전달 방식을 이 문항에서는 참조 호출이라고 합니다. C에서는 주소값을 값으로 넘기고 간접 참조해 같은 효과를 냅니다.",
           "groups": [],
           "needsReview": false
         },
         {
           "number": 65,
           "answerPosition": 30,
-          "answerCode": null,
-          "answer": null,
-          "acceptedAnswers": [],
-          "explanation": "정답표 재확인 중입니다. 첨부된 컴퓨터구조 정답표는 이 시험의 채점에 사용하지 않습니다.",
+          "answerCode": "2",
+          "answer": 2,
+          "acceptedAnswers": [
+            2
+          ],
+          "explanation": "자료 구조의 구현을 외부에서 직접 접근하지 못하게 감추고 공개된 연산으로 사용하도록 하는 것은 캡슐화입니다.",
           "groups": [],
           "needsReview": false
         },
         {
           "number": 66,
           "answerPosition": 31,
-          "answerCode": null,
-          "answer": null,
-          "acceptedAnswers": [],
-          "explanation": "정답표 재확인 중입니다. 첨부된 컴퓨터구조 정답표는 이 시험의 채점에 사용하지 않습니다.",
+          "answerCode": "2",
+          "answer": 2,
+          "acceptedAnswers": [
+            2
+          ],
+          "explanation": "주파수는 신호가 초당 진동하는 횟수이며 단위는 Hz입니다. 대역폭은 주파수 범위의 차이입니다.",
           "groups": [],
           "needsReview": false
         },
         {
           "number": 67,
           "answerPosition": 32,
-          "answerCode": null,
-          "answer": null,
-          "acceptedAnswers": [],
-          "explanation": "정답표 재확인 중입니다. 첨부된 컴퓨터구조 정답표는 이 시험의 채점에 사용하지 않습니다.",
+          "answerCode": "4",
+          "answer": 4,
+          "acceptedAnswers": [
+            4
+          ],
+          "explanation": "HTTP·FTP·SMTP 같은 응용 프로토콜은 응용 계층의 기능입니다.",
           "groups": [],
           "needsReview": false
         },
         {
           "number": 68,
           "answerPosition": 33,
-          "answerCode": null,
-          "answer": null,
-          "acceptedAnswers": [],
-          "explanation": "정답표 재확인 중입니다. 첨부된 컴퓨터구조 정답표는 이 시험의 채점에 사용하지 않습니다.",
+          "answerCode": "3",
+          "answer": 3,
+          "acceptedAnswers": [
+            3
+          ],
+          "explanation": "네트워크 계층에서 다루며 IP의 전송 단위인 것은 패킷입니다. 데이터링크 계층의 프레임과 구별합니다.",
           "groups": [],
           "needsReview": false
         },
         {
           "number": 69,
           "answerPosition": 34,
-          "answerCode": null,
-          "answer": null,
-          "acceptedAnswers": [],
-          "explanation": "정답표 재확인 중입니다. 첨부된 컴퓨터구조 정답표는 이 시험의 채점에 사용하지 않습니다.",
+          "answerCode": "1",
+          "answer": 1,
+          "acceptedAnswers": [
+            1
+          ],
+          "explanation": "공용 버스를 공유하고 수신자가 목적지 주소를 확인하는 LAN 위상은 버스형입니다.",
           "groups": [],
           "needsReview": false
         },
         {
           "number": 70,
           "answerPosition": 35,
-          "answerCode": null,
-          "answer": null,
-          "acceptedAnswers": [],
-          "explanation": "정답표 재확인 중입니다. 첨부된 컴퓨터구조 정답표는 이 시험의 채점에 사용하지 않습니다.",
+          "answerCode": "3",
+          "answer": 3,
+          "acceptedAnswers": [
+            3
+          ],
+          "explanation": "TCP는 메시지를 순서에 맞게 전달하도록 지원합니다. 데이터그램의 비연결 전송과 달리 신뢰성을 위한 재전송·순서 관리 등을 제공합니다.",
           "groups": [],
           "needsReview": false
         }
       ],
-      "answerPending": true
+      "answerPending": false,
+      "answerImage": "assets/CSF17-answers.png"
     },
     {
       "id": "CSD17",
@@ -2134,7 +2210,9 @@
       "title": "컴퓨터의 구성·프로그램 내장",
       "focus": "프로그램·데이터·하드웨어의 역할과 역사 문항의 교재 기준을 구별하세요.",
       "classification": "반복 개념 · 동일·유사 문항",
-      "lectures": [],
+      "lectures": [
+        1
+      ],
       "exam_count": 5,
       "question_count": 6,
       "sources": [
@@ -2169,7 +2247,10 @@
       "title": "단위·이진수·정수 표현",
       "focus": "시간·용량 단위와 2의 보수의 부호 해석을 확인하세요.",
       "classification": "반복 개념 · 동일·유사 문항",
-      "lectures": [],
+      "lectures": [
+        1,
+        2
+      ],
       "exam_count": 5,
       "question_count": 10,
       "sources": [
@@ -2220,7 +2301,9 @@
       "title": "부동소수점·문자 코드",
       "focus": "정규화한 지수에 바이어스를 더하며 코드 체계와 인코딩을 구별하세요.",
       "classification": "반복 개념 · 동일·유사 문항",
-      "lectures": [],
+      "lectures": [
+        2
+      ],
       "exam_count": 4,
       "question_count": 4,
       "sources": [
@@ -2247,7 +2330,9 @@
       "title": "알고리즘 조건·설계·복잡도",
       "focus": "유한성·명확성과 설계 방법, 입력에 따른 수행 횟수를 구별하세요.",
       "classification": "반복 개념 · 동일·유사 문항",
-      "lectures": [],
+      "lectures": [
+        5
+      ],
       "exam_count": 4,
       "question_count": 9,
       "sources": [
@@ -2294,7 +2379,10 @@
       "title": "정렬 알고리즘",
       "focus": "삽입 정렬과 피벗 기반 퀵 정렬의 동작·최악 성능을 비교하세요.",
       "classification": "반복 개념 · 동일·유사 문항",
-      "lectures": [],
+      "lectures": [
+        5,
+        6
+      ],
       "exam_count": 4,
       "question_count": 4,
       "sources": [
@@ -2321,7 +2409,9 @@
       "title": "논리회로·디코더",
       "focus": "XOR 진리 조건과 주소 선택용 디코더, 순서회로의 기억 기능을 구별하세요.",
       "classification": "반복 개념 · 동일·유사 문항",
-      "lectures": [],
+      "lectures": [
+        9
+      ],
       "exam_count": 3,
       "question_count": 4,
       "sources": [
@@ -2348,7 +2438,10 @@
       "title": "CPU·기억장치·주소지정",
       "focus": "IR·PC의 역할, 캐시·레지스터와 간접 주소지정을 비교하세요.",
       "classification": "반복 개념 · 동일·유사 문항",
-      "lectures": [],
+      "lectures": [
+        9,
+        10
+      ],
       "exam_count": 4,
       "question_count": 9,
       "sources": [
@@ -2395,7 +2488,10 @@
       "title": "데이터베이스·SQL",
       "focus": "스키마·도메인·개체 관계와 SQL의 기본 문법을 확인하세요.",
       "classification": "반복 개념 · 동일·유사 문항",
-      "lectures": [],
+      "lectures": [
+        13,
+        14
+      ],
       "exam_count": 2,
       "question_count": 8,
       "sources": [
@@ -2438,7 +2534,9 @@
       "title": "자료구조·배열·연결 리스트",
       "focus": "논리 관계의 추상화, 실제 링크 연결, 희소행렬을 함께 비교하세요.",
       "classification": "반복 개념 · 동일·유사 문항",
-      "lectures": [],
+      "lectures": [
+        3
+      ],
       "exam_count": 5,
       "question_count": 10,
       "sources": [
@@ -2489,7 +2587,11 @@
       "title": "스택·큐·이진 트리",
       "focus": "후입선출·선입선출, 순회 순서와 완전·포화 트리의 차이를 확인하세요.",
       "classification": "반복 개념 · 동일·유사 문항",
-      "lectures": [],
+      "lectures": [
+        3,
+        4,
+        6
+      ],
       "exam_count": 5,
       "question_count": 15,
       "sources": [
@@ -2560,7 +2662,9 @@
       "title": "그래프·탐색",
       "focus": "인접행렬·인접 리스트와 거리별 BFS 방문 순서를 비교하세요.",
       "classification": "반복 개념 · 동일·유사 문항",
-      "lectures": [],
+      "lectures": [
+        4
+      ],
       "exam_count": 3,
       "question_count": 4,
       "sources": [
@@ -2587,7 +2691,10 @@
       "title": "운영체제·메모리·스케줄링",
       "focus": "자원 관리, 페이지·프레임, FCFS·SSTF·SCAN의 기준을 구별하세요.",
       "classification": "반복 개념 · 동일·유사 문항",
-      "lectures": [],
+      "lectures": [
+        7,
+        8
+      ],
       "exam_count": 4,
       "question_count": 14,
       "sources": [
@@ -2654,7 +2761,10 @@
       "title": "프로그래밍 언어·컴파일·값 전달",
       "focus": "어휘·구문 분석, 수명·범위와 함수의 값 전달을 구별하세요.",
       "classification": "반복 개념 · 동일·유사 문항",
-      "lectures": [],
+      "lectures": [
+        11,
+        12
+      ],
       "exam_count": 2,
       "question_count": 8,
       "sources": [
@@ -2697,7 +2807,9 @@
       "title": "통신·네트워크 계층",
       "focus": "프로토콜·위상 구조와 프레임·패킷, 브리지·스위치를 비교하세요.",
       "classification": "반복 개념 · 동일·유사 문항",
-      "lectures": [],
+      "lectures": [
+        15
+      ],
       "exam_count": 2,
       "question_count": 8,
       "sources": [
@@ -2736,6 +2848,283 @@
       ]
     }
   ],
-  "lectures": [],
-  "supplements": []
+  "lectures": [
+    {
+      "number": 1,
+      "title": "컴퓨터와 데이터 (1)",
+      "pdf": "assets/cs-lecture-01.pdf",
+      "sourceRevision": null
+    },
+    {
+      "number": 2,
+      "title": "컴퓨터와 데이터 (2)",
+      "pdf": "assets/cs-lecture-02.pdf",
+      "sourceRevision": null
+    },
+    {
+      "number": 3,
+      "title": "자료구조 (1)",
+      "pdf": "assets/cs-lecture-03.pdf",
+      "sourceRevision": null
+    },
+    {
+      "number": 4,
+      "title": "자료구조 (2) · 2025.09.10 수정본",
+      "pdf": "assets/cs-lecture-04.pdf",
+      "sourceRevision": "2025.09.10"
+    },
+    {
+      "number": 5,
+      "title": "알고리즘 (1)",
+      "pdf": "assets/cs-lecture-05.pdf",
+      "sourceRevision": null
+    },
+    {
+      "number": 6,
+      "title": "알고리즘 (2)",
+      "pdf": "assets/cs-lecture-06.pdf",
+      "sourceRevision": null
+    },
+    {
+      "number": 7,
+      "title": "운영체제 (1)",
+      "pdf": "assets/cs-lecture-07.pdf",
+      "sourceRevision": null
+    },
+    {
+      "number": 8,
+      "title": "운영체제 (2)",
+      "pdf": "assets/cs-lecture-08.pdf",
+      "sourceRevision": null
+    },
+    {
+      "number": 9,
+      "title": "컴퓨터 구조 (1)",
+      "pdf": "assets/cs-lecture-09.pdf",
+      "sourceRevision": null
+    },
+    {
+      "number": 10,
+      "title": "컴퓨터 구조 (2)",
+      "pdf": "assets/cs-lecture-10.pdf",
+      "sourceRevision": null
+    },
+    {
+      "number": 11,
+      "title": "프로그래밍 언어 (1)",
+      "pdf": "assets/cs-lecture-11.pdf",
+      "sourceRevision": null
+    },
+    {
+      "number": 12,
+      "title": "프로그래밍 언어 (2)",
+      "pdf": "assets/cs-lecture-12.pdf",
+      "sourceRevision": null
+    },
+    {
+      "number": 13,
+      "title": "데이터베이스 (1)",
+      "pdf": "assets/cs-lecture-13.pdf",
+      "sourceRevision": null
+    },
+    {
+      "number": 14,
+      "title": "데이터베이스 (2)",
+      "pdf": "assets/cs-lecture-14.pdf",
+      "sourceRevision": null
+    },
+    {
+      "number": 15,
+      "title": "컴퓨터 네트워크",
+      "pdf": "assets/cs-lecture-15.pdf",
+      "sourceRevision": null
+    }
+  ],
+  "supplements": [
+    {
+      "lecture": 5,
+      "topic": "O·Ω·Θ 구별",
+      "pages": [
+        29
+      ],
+      "classification": "기출 확장 보충",
+      "reason": "기출의 O 증가율 비교에서 상한·하한 구분으로 확장",
+      "summary": "Θ는 같은 비교 함수로 점근적 상한과 하한을 함께 묶습니다. O는 상한, Ω는 하한을 나타냅니다.",
+      "questionId": "CSP35"
+    },
+    {
+      "lecture": 7,
+      "topic": "통합과 집약",
+      "pages": [
+        51
+      ],
+      "classification": "기출 확장 보충",
+      "reason": "기출의 단편화·가상메모리에서 공백 처리 방법으로 확장",
+      "summary": "강의는 인접 공백을 합치는 것을 통합, 흩어진 공백을 하나로 모으는 것을 집약으로 구별합니다.",
+      "questionId": "CSP37"
+    },
+    {
+      "lecture": 14,
+      "topic": "기본키와 무결성",
+      "pages": [
+        10
+      ],
+      "classification": "기출 확장 보충",
+      "reason": "기출의 튜플·SQL에서 관계형 키의 제약으로 확장",
+      "summary": "개체 무결성은 튜플을 유일하게 식별하는 기본키가 NULL이 될 수 없다는 제약입니다. 참조 무결성은 다른 릴레이션의 참조 대상과 관련됩니다.",
+      "questionId": "CSP44"
+    },
+    {
+      "lecture": 13,
+      "topic": "물리적 데이터 독립성",
+      "pages": [
+        21
+      ],
+      "classification": "기출 확장 보충",
+      "reason": "기출의 스키마 종류에서 단계 간 사상으로 확장",
+      "summary": "개념/내부 사상은 물리적 데이터 독립성을 지원합니다. 저장 구조 변경이 개념적 논리 구조에 영향을 주지 않도록 합니다.",
+      "questionId": "CSP43"
+    },
+    {
+      "lecture": 9,
+      "topic": "전가산기의 입력",
+      "pages": [
+        21
+      ],
+      "classification": "기출 확장 보충",
+      "reason": "기출의 XOR·디코더에서 산술 조합회로로 확장",
+      "summary": "전가산기는 두 비트 X·Y뿐 아니라 아랫자리의 올림수 Cin도 입력으로 받아 합과 다음 자리 올림수를 계산합니다.",
+      "questionId": "CSP39"
+    },
+    {
+      "lecture": 10,
+      "topic": "DMA와 CPU",
+      "pages": [
+        36
+      ],
+      "classification": "기출 확장 보충",
+      "reason": "기출의 파이프라인·레지스터에서 입출력 제어로 확장",
+      "summary": "DMA는 초기 설정 이후 입출력장치와 주기억장치 사이의 전송을 별도 제어기가 수행하여 CPU의 직접 데이터 이동 부담을 줄입니다.",
+      "questionId": "CSP40"
+    },
+    {
+      "lecture": 11,
+      "topic": "형 검사의 시점",
+      "pages": [
+        40
+      ],
+      "classification": "기출 확장 보충",
+      "reason": "기출의 컴파일 단계에서 타입 검사 시점으로 확장",
+      "summary": "강의는 컴파일 때의 형 검사를 정적 형 검사, 실행 시간의 형 검사를 동적 형 검사로 구분합니다.",
+      "questionId": "CSP41"
+    },
+    {
+      "lecture": 12,
+      "topic": "정적 할당의 수명",
+      "pages": [
+        43
+      ],
+      "classification": "기출 확장 보충",
+      "reason": "기출의 수명 정의에서 할당 방식별 수명으로 확장",
+      "summary": "정적 할당의 수명은 프로그램 실행 전체에 걸칩니다. 이름의 유효 범위는 별도의 규칙이므로 수명과 같다고 단정할 수 없습니다.",
+      "questionId": "CSP42"
+    },
+    {
+      "lecture": 4,
+      "topic": "진입·진출 차수",
+      "pages": [
+        36
+      ],
+      "classification": "기출 확장 보충",
+      "reason": "2025.09.10 수정본의 그래프 용어 보충 · 개정 전후 차이는 미확인",
+      "summary": "B로 들어오는 간선은 A→B와 C→B 두 개이며, 나가는 간선은 B→D 한 개입니다. 수정본 4강의 정의를 적용했습니다.",
+      "questionId": "CSP34"
+    },
+    {
+      "lecture": 8,
+      "topic": "교착상태의 순환",
+      "pages": [
+        28
+      ],
+      "classification": "기출 확장 보충",
+      "reason": "기출의 상호배제 단일 조건에서 환형 대기로 확장",
+      "summary": "교착상태의 환형 대기는 각 프로세스가 다음 프로세스가 가진 자원을 기다리는 원형 사슬을 뜻합니다. 상호배제·점유대기·비선점과 함께 이해해야 합니다.",
+      "questionId": "CSP38"
+    },
+    {
+      "lecture": 6,
+      "topic": "이진 탐색의 전제",
+      "pages": [
+        20
+      ],
+      "classification": "기출 확장 보충",
+      "reason": "기출의 순차 탐색·BST에서 배열 이진 탐색으로 확장",
+      "summary": "정렬되어 있어야 가운데 값과 비교한 결과로 탐색 범위의 절반을 버릴 수 있습니다. 길이가 2의 거듭제곱일 필요는 없습니다.",
+      "questionId": "CSP36"
+    },
+    {
+      "lecture": 15,
+      "topic": "표현 계층",
+      "pages": [
+        57
+      ],
+      "classification": "기출 확장 보충",
+      "reason": "기출의 네트워크·전송·응용 계층에서 표현 계층으로 확장",
+      "summary": "표현 계층은 응용의 데이터 표현 방식 차이를 다룹니다. 강의는 인터넷에서는 별도의 표현 계층 없이 응용 수준에서 바이트 순서 등을 처리한다고 설명합니다.",
+      "questionId": "CSP45"
+    },
+    {
+      "lecture": 2,
+      "topic": "단정도·배정도",
+      "pages": [
+        34
+      ],
+      "classification": "기출 확장 보충",
+      "reason": "기출의 지수 변환에서 형식의 필드 구성으로 확장",
+      "summary": "강의의 배정도 표는 총 64비트=8바이트이며 부호 1, 지수 11, 가수 필드 52비트입니다. 가수 필드와 숨은 선행 비트를 포함한 정밀도는 구별합니다.",
+      "questionId": "CSP32"
+    },
+    {
+      "lecture": 3,
+      "topic": "오버플로·언더플로",
+      "pages": [
+        55,
+        56
+      ],
+      "classification": "기출 확장 보충",
+      "reason": "기출의 정상 Push·Pop에서 오류 조건으로 확장",
+      "summary": "저장 용량을 초과하는 삽입은 오버플로, 꺼낼 원소가 없는 삭제는 언더플로입니다. 강의 55~56쪽의 정의를 연결합니다.",
+      "questionId": "CSP33"
+    },
+    {
+      "lecture": 1,
+      "topic": "컴퓨터과학의 범위",
+      "pages": [
+        16
+      ],
+      "classification": "기출 확장 보충",
+      "reason": "기출의 프로그램 역할에서 학문 범위로 확장",
+      "summary": "강의는 컴퓨터과학을 데이터의 획득·표현·처리·저장·통신·접근 방법의 실행 가능성, 구조화, 표현, 기계화와 관련된 분야로 설명합니다.",
+      "questionId": "CSP31"
+    }
+  ],
+  "lectureNotices": [
+    {
+      "title": "4강은 수정본을 사용합니다",
+      "text": "파일명에 2025.09.10 수정이라고 명시된 자료입니다. 이전 판본이 없어 변경된 페이지나 새로 추가된 내용의 범위는 확정하지 않았습니다.",
+      "lecture": 4,
+      "pages": [
+        1
+      ]
+    },
+    {
+      "title": "유니코드의 16비트 설명은 범위를 구분하세요",
+      "text": "2강 PDF 39쪽은 유니코드를 16비트·65,536개로 요약합니다. 현대 유니코드 전체와 UTF-16 코드 단위는 다릅니다. 보충 문자에는 두 개의 16비트 코드 단위를 사용합니다. 과거 기출 채점은 제공 정답표를 유지합니다.",
+      "lecture": 2,
+      "pages": [
+        39
+      ],
+      "url": "https://www.unicode.org/faq/utf_bom.html"
+    }
+  ]
 }
