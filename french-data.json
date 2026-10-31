@@ -568,11 +568,11 @@
           "answerPosition": 16,
           "answer": 1,
           "answerCode": "1",
-          "explanation": "me levais는 진행 중이던 배경을, est entré는 그때 일어난 사건을 나타냅니다. 반과거와 복합과거의 역할 차이입니다.",
+          "explanation": "사용자 제공 정답표는 ①(me suis levée / est entré)입니다. 기존 해설에서 설명한 반과거 me levais는 원문의 ③에 있어 정답표와 해설의 대조 확인이 필요합니다. 채점은 제공 정답표의 ①을 유지합니다.",
           "groups": [
             "FRR05"
           ],
-          "needsReview": false
+          "needsReview": true
         },
         {
           "number": 52,
