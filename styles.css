@@ -12,3 +12,5 @@
 .repeat-original{display:block;max-width:100%;height:auto;margin:14px auto;border:1px solid #e0e5ed;border-radius:8px;background:white}.repeat-figure{margin:20px 0}.repeat-figure figcaption{font-size:13px;color:#64748b}.practice-question h2,.practice-choice>span:last-child{white-space:pre-wrap}.evidence-box details{margin-top:14px}
 
 .question-top-tools{display:flex;justify-content:space-between;align-items:center;gap:12px;margin:16px 0}.retry-current{margin:12px 0}.practice-navigation{gap:12px}.practice-navigation button{min-height:46px}@media(max-width:640px){.question-top-tools{position:sticky;top:0;z-index:5;padding:10px 0;background:#f5f7fb}.question-top-tools .primary{margin-left:auto}}
+
+.page-heading.compact-exam-heading{align-items:center;gap:16px;margin-bottom:20px}.compact-exam-heading h1.compact-exam-title{font-size:18px;font-weight:500;line-height:1.5;margin:0;color:var(--muted)}@media(max-width:640px){.page-heading.compact-exam-heading{gap:12px;margin-bottom:16px}.compact-exam-heading h1.compact-exam-title{font-size:16px}}
