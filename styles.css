@@ -10,3 +10,5 @@
 .sidebar [hidden]{display:none!important}.lecture-index{display:flex;gap:8px;flex-wrap:wrap;margin-bottom:24px}.lecture-index a{text-decoration:none}.lecture-notes{display:grid;gap:24px}.lecture-note{scroll-margin-top:24px}.lecture-note .topic-grid{grid-template-columns:repeat(auto-fit,minmax(min(100%,240px),1fr))}.lecture-note .section-heading{flex-wrap:wrap;gap:12px}.lecture-summary{line-height:1.85;margin-bottom:24px;color:var(--muted,#53677a)}
 
 .repeat-original{display:block;max-width:100%;height:auto;margin:14px auto;border:1px solid #e0e5ed;border-radius:8px;background:white}.repeat-figure{margin:20px 0}.repeat-figure figcaption{font-size:13px;color:#64748b}.practice-question h2,.practice-choice>span:last-child{white-space:pre-wrap}.evidence-box details{margin-top:14px}
+
+.question-top-tools{display:flex;justify-content:space-between;align-items:center;gap:12px;margin:16px 0}.retry-current{margin:12px 0}.practice-navigation{gap:12px}.practice-navigation button{min-height:46px}@media(max-width:640px){.question-top-tools{position:sticky;top:0;z-index:5;padding:10px 0;background:#f5f7fb}.question-top-tools .primary{margin-left:auto}}
