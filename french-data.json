@@ -4,7 +4,12 @@
     "title": "프랑스어회화2",
     "school": "방송통신대학교 · 프랑스언어문화학과",
     "scope": "제공된 2017–2019년 기출 3회분",
-    "updated": "2026.10.29"
+    "updated": "2026.11.12",
+    "teasers": [
+      "être sur le point de",
+      "aurais dû",
+      "접속법"
+    ]
   },
   "exams": [
     {
@@ -1605,6 +1610,211 @@
       ]
     }
   ],
-  "lectures": [],
-  "supplements": []
+  "lectures": [
+    {
+      "number": 1,
+      "title": "C’est",
+      "pdf": "assets/french-lecture-01.pdf"
+    },
+    {
+      "number": 2,
+      "title": "Être",
+      "pdf": "assets/french-lecture-02.pdf"
+    },
+    {
+      "number": 3,
+      "title": "Avoir",
+      "pdf": "assets/french-lecture-03.pdf"
+    },
+    {
+      "number": 4,
+      "title": "Faire",
+      "pdf": "assets/french-lecture-04.pdf"
+    },
+    {
+      "number": 5,
+      "title": "Aller, Venir",
+      "pdf": "assets/french-lecture-05.pdf"
+    },
+    {
+      "number": 6,
+      "title": "Arriver, Passer",
+      "pdf": "assets/french-lecture-06.pdf"
+    },
+    {
+      "number": 7,
+      "title": "Aimer, Tenir",
+      "pdf": "assets/french-lecture-07.pdf"
+    },
+    {
+      "number": 8,
+      "title": "Prendre, Mettre",
+      "pdf": "assets/french-lecture-08.pdf"
+    },
+    {
+      "number": 9,
+      "title": "Penser, Trouver, Croire",
+      "pdf": "assets/french-lecture-09.pdf"
+    },
+    {
+      "number": 10,
+      "title": "Dire, Voir, Savoir",
+      "pdf": "assets/french-lecture-10.pdf"
+    },
+    {
+      "number": 11,
+      "title": "Vouloir, Pouvoir",
+      "pdf": "assets/french-lecture-11.pdf"
+    },
+    {
+      "number": 12,
+      "title": "Devoir, Valoir",
+      "pdf": "assets/french-lecture-12.pdf"
+    },
+    {
+      "number": 13,
+      "title": "대명동사를 포함한 일상 표현",
+      "pdf": "assets/french-lecture-13.pdf"
+    },
+    {
+      "number": 14,
+      "title": "비인칭 주어를 포함한 일상 표현",
+      "pdf": "assets/french-lecture-14.pdf"
+    },
+    {
+      "number": 15,
+      "title": "접속법을 포함한 일상 표현",
+      "pdf": "assets/french-lecture-15.pdf"
+    }
+  ],
+  "supplements": [
+    {
+      "lecture": 1,
+      "topic": "C’est moi qui ai raison",
+      "summary": "C’est … qui로 주어를 강조할 때 뒤 동사는 강조된 주어에 맞춰 활용합니다. moi가 주어이므로 a 대신 ai를 씁니다.",
+      "pages": [
+        12
+      ]
+    },
+    {
+      "lecture": 2,
+      "topic": "막 시작할 때와 진행 중일 때",
+      "summary": "être sur le point de는 곧 할 일을, être en train de는 지금 하고 있는 일을 나타냅니다. Je suis sur le point de sortir는 ‘막 나가려는 참’입니다.",
+      "pages": [
+        27,
+        30
+      ]
+    },
+    {
+      "lecture": 3,
+      "topic": "avoir beau + 동사원형",
+      "summary": "어떤 행동을 해도 결과가 달라지지 않는 양보 표현입니다. Tu as beau attendre는 ‘아무리 기다려도’라는 뜻입니다.",
+      "pages": [
+        36
+      ]
+    },
+    {
+      "lecture": 4,
+      "topic": "se faire + 동사원형",
+      "summary": "Je me suis fait vacciner는 ‘예방접종을 받았다’는 뜻입니다. fait 뒤에 동사원형이 이어지면 fait는 성·수에 따라 바뀌지 않습니다.",
+      "pages": [
+        39
+      ]
+    },
+    {
+      "lecture": 5,
+      "topic": "가까운 미래와 방금 끝난 일",
+      "summary": "aller + 동사원형은 가까운 미래를, venir de + 동사원형은 방금 끝난 일을 표현합니다. Je viens de me réveiller는 ‘방금 일어났다’는 뜻입니다.",
+      "pages": [
+        15,
+        45
+      ]
+    },
+    {
+      "lecture": 6,
+      "topic": "arriver à와 y arriver",
+      "summary": "arriver à + 동사원형은 어떤 일을 해내는 것을 뜻합니다. 앞에서 그 일을 이미 말했다면 Tu vas y arriver !처럼 y로 받을 수 있습니다.",
+      "pages": [
+        15,
+        18
+      ]
+    },
+    {
+      "lecture": 7,
+      "topic": "tenir à와 se tenir",
+      "summary": "tenir à는 소중하게 여기거나 어떤 일을 꼭 하려는 마음을 나타냅니다. 행사에 쓰인 se tenir는 ‘열리다’를 뜻합니다.",
+      "pages": [
+        39,
+        45
+      ]
+    },
+    {
+      "lecture": 8,
+      "topic": "se mettre à + 동사원형",
+      "summary": "어떤 행동이나 현상이 시작됨을 표현합니다. Elle s’est mise à pleurer는 ‘그녀가 울기 시작했다’는 뜻입니다.",
+      "pages": [
+        42
+      ]
+    },
+    {
+      "lecture": 9,
+      "topic": "croire, croire en, croire à",
+      "summary": "Je te crois는 상대의 말을 믿는다는 뜻입니다. croire en toi는 상대를 신뢰한다는 뜻이고, croire aux extraterrestres는 외계인의 존재를 믿는다는 뜻입니다.",
+      "pages": [
+        39
+      ]
+    },
+    {
+      "lecture": 10,
+      "topic": "Ça te dirait de … ?",
+      "summary": "Ça te dit de … ?는 함께 무언가 하자고 제안할 때 씁니다. 조건법 dirait를 쓰면 더 부드러운 제안이 됩니다.",
+      "pages": [
+        18
+      ]
+    },
+    {
+      "lecture": 11,
+      "topic": "aurais pu로 과거의 가능성 표현하기",
+      "summary": "J’aurais pu는 실제로 하지 않았지만 할 수 있었던 일을 말합니다. Tu aurais pu는 상황에 따라 ‘그러지 그랬어’라는 아쉬움이나 가벼운 질책을 담습니다.",
+      "pages": [
+        42,
+        48
+      ]
+    },
+    {
+      "lecture": 12,
+      "topic": "devrais와 aurais dû",
+      "summary": "Tu devrais는 지금 또는 앞으로 할 일에 대한 조언입니다. J’aurais dû는 과거에 하지 않은 일을 두고 후회할 때 씁니다.",
+      "pages": [
+        30,
+        36
+      ]
+    },
+    {
+      "lecture": 13,
+      "topic": "se souvenir de와 se rappeler",
+      "summary": "‘이름을 기억하다’는 se souvenir du nom 또는 se rappeler le nom으로 표현합니다. se souvenir 뒤에는 de를 씁니다.",
+      "pages": [
+        39
+      ]
+    },
+    {
+      "lecture": 14,
+      "topic": "Il suffit de와 Il faut",
+      "summary": "Il suffit de는 ‘~하기만 하면 충분하다’, Il faut는 ‘~해야 한다’는 뜻입니다. Il ne suffit pas de vouloir, il faut agir는 두 표현의 차이를 보여줍니다.",
+      "pages": [
+        39,
+        42
+      ]
+    },
+    {
+      "lecture": 15,
+      "topic": "필요·아쉬움을 나타내는 접속법",
+      "summary": "Il faut que tu sois에서 sois는 être의 접속법입니다. C’est dommage que tu ne puisses pas venir처럼 아쉬움을 나타내는 표현 뒤에도 접속법을 씁니다.",
+      "pages": [
+        12,
+        33
+      ]
+    }
+  ]
 }
