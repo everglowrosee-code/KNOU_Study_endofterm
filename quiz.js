@@ -42,3 +42,5 @@ const csCourse=window.CAPTAIN_COURSES?.find(c=>c.subject.id==='computer-science-
 if(csCourse&&window.CAPTAIN_CS_PREDICTIONS)window.CaptainQuizzes[csCourse.subject.id]=window.createCaptainQuiz({course:csCourse,questions:window.CAPTAIN_CS_PREDICTIONS.questions,storageKey:'captain-prediction-computer-science-intro-v1'});
 if(window.CAPTAIN_ODA_DATA&&window.CAPTAIN_ODA_PREDICTIONS)window.CaptainQuizzes['open-source-data-analysis']=window.createCaptainQuiz({course:window.CAPTAIN_ODA_DATA,questions:window.CAPTAIN_ODA_PREDICTIONS.questions,storageKey:'captain-prediction-open-source-data-analysis-v1'});
 window.CaptainQuiz=window.CaptainQuizzes['programming-languages'];
+const frenchCourse=window.CAPTAIN_COURSES?.find(c=>c.subject.id==='french-conversation-2');
+if(frenchCourse&&window.CAPTAIN_FRENCH_PREDICTIONS)window.CaptainQuizzes[frenchCourse.subject.id]=window.createCaptainQuiz({course:frenchCourse,questions:window.CAPTAIN_FRENCH_PREDICTIONS.questions,storageKey:'captain-prediction-french-conversation-2-v1'});
